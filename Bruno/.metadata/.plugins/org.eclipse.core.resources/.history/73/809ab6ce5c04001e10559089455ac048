@@ -1,0 +1,15 @@
+package pacote;
+
+public class Notas {
+
+	public static void main(String[] args) {
+		
+		int nota1 = 9;
+		
+		int nota2 = 10;
+		
+		int nota3 = 15;
+
+	}
+
+}

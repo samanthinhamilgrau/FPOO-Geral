@@ -1,0 +1,28 @@
+package pacote;
+
+import java.util.Scanner;
+
+public class Exercícios1 {
+
+	public static void main(String[] args) {
+		
+		Scanner objScanner = new Scanner(System.in);
+		String inf;
+		
+		System.out.println("DIGITE seu plano: ");
+		
+		inf = objScanner.next();
+		
+		if(inf.equalsIgnoreCase("prata")){
+			System.out.println("valor x");
+		}
+		else if(inf.equalsIgnoreCase("bronze")){
+			System.out.println("valor y");
+		}
+		else {
+			System.out.println("infor errado");
+		}
+
+	}
+
+}
